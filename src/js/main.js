@@ -9,4 +9,5 @@ hand.addEventListener("click", function () {
   box2.classList.add("is-active");
   box3.classList.add("is-active");
   box4.classList.add("is-active");
+  hand.classList.add("is-active");
 });

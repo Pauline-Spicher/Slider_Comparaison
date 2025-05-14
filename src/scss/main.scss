@@ -17,6 +17,9 @@ body {
   height: 2101px;
 }
 
+body {
+  background: #eee;
+}
 .screen {
   width: 1080px;
   height: 1920px;
@@ -24,15 +27,22 @@ body {
   background: #fff;
 }
 
+.hand {
+  margin-left: 200px;
+  margin-top: 970px;
+}
+.hand.is-active {
+  color: white;
+}
+
 /* ----- BOX -----*/
 
 .box1 {
-  width: 200px;
-  height: 300px;
-  background: rgb(157, 255, 0);
+  width: 593.999px;
+  height: 1056.914px;
   position: fixed;
-  top: -100px;
-  left: -50px;
+  top: 0px;
+  left: 0px;
   transition: all 2s;
 }
 
@@ -41,20 +51,12 @@ body {
   left: 200px;
 }
 
-.hand {
-  margin-left: 400px;
-}
-.hand.is-active {
-  color: white;
-}
-
 .box2 {
-  width: 200px;
-  height: 300px;
-  background: rgb(245, 152, 189);
+  width: 456px;
+  height: 676.495px;
   position: fixed;
-  top: -100px;
-  left: 700px;
+  top: 0px;
+  left: 623px;
   transition: all 2s;
 }
 .box2.is-active {
@@ -63,26 +65,26 @@ body {
 }
 
 .box3 {
-  width: 200px;
-  height: 300px;
-  background: rgb(255, 225, 0);
+  width: 401.998px;
+  height: 496px;
   position: fixed;
-  top: 500px;
-  left: -50px;
+  top: 1423px;
+  left: 0px;
   transition: all 2s;
 }
 .box3.is-active {
+  width: 1107px;
+  height: 994px;
   top: 450px;
   left: 200px;
 }
 
 .box4 {
-  width: 200px;
-  height: 300px;
-  background: rgb(255, 0, 25);
+  width: 581px;
+  height: 1217px;
   position: fixed;
-  top: 500px;
-  left: 700px;
+  top: 872px;
+  left: 500px;
   transition: all 2s;
 }
 .box4.is-active {
@@ -92,12 +94,18 @@ body {
 
 /* ----- H ----- */
 
+.textes {
+  /*margin-top: 623px;*/
+  margin-top: 370px;
+  margin-left: 300px;
+}
+
 h1 {
   color: #f00;
   font-family: Inter;
   font-size: 140px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   letter-spacing: 7px;
 
@@ -110,7 +118,7 @@ h2 {
   font-family: Inter;
   font-size: 48px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
   letter-spacing: 2.4px;
 
@@ -127,9 +135,11 @@ h3 {
   justify-content: center;
   margin-left: 700px;
 
-  color: #ff0000;
+  color: #ffffff;
   text-align: center;
   font-family: Inter;
   font-size: 40px;
   font-weight: 600;
+  z-index: 0;
+  position: relative;
 }
